@@ -10,7 +10,7 @@ public class LoginTests {
 	public LoginObjects lg;
 
 	public LoginTests() {
-		lg = new LoginObjects();
+		lg2 = new LoginObjects();
 	}
 
 	@Test
