@@ -14,6 +14,7 @@ public class LoginTests {
 	}
 
 	@Test
+
 	public void verifyUserName() {
 		lg.enterUserName("Abuthaheer");
 		String value = lg.getEnteredUserName();
