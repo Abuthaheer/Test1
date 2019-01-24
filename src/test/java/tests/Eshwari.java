@@ -14,7 +14,7 @@ public class LoginTests {
 	}
 
 	@Test
-	public void verifyUserName987() {
+	public void verifyUserName() {
 		lg.enterUserName("Abuthaheer");
 		String value = lg.getEnteredUserName();
 		Assert.assertTrue(value.equals("Abuthaheer"), "Failed: Login Failed");
